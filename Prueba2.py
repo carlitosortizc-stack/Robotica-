@@ -184,9 +184,9 @@ while True:
     lr, fb, ud, yaw = 0, 0, 0, 0
 
     if etiqueta == "MANO ABIERTA":
-        ud = velocidad
+        yaw = velocidad
     elif etiqueta == "MANO CERRADA":
-        ud = -velocidad
+        yaw = -velocidad
     elif etiqueta == "DERECHA":
         lr = velocidad
     elif etiqueta == "IZQUIERDA":
