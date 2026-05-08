@@ -160,9 +160,9 @@ while True:
     lr, fb, ud, yaw = 0, 0, 0, 0
 
     if texto_gesto == "MANO ABIERTA":
-        fb = velocidad
+        yaw = velocidad
     elif texto_gesto == "MANO CERRADA":
-        fb = -velocidad
+        yaw = -velocidad
     elif texto_gesto == "DERECHA":
         lr = velocidad
     elif texto_gesto == "IZQUIERDA":
